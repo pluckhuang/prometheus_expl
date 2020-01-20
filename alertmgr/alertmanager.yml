@@ -20,8 +20,8 @@ receivers:
       - send_resolved: true
         to_party: "2"
         agent_id: '1000002'
-        corp_id: 'ww626de709c6128ccd'
-        api_secret: 'PtZcKzQI5rLk3fwH213yl2OEXao-xW6mxWaldibpdAc'
+        corp_id: '--'  # 公司id
+        api_secret: '--' # 同上
         api_url: 'https://qyapi.weixin.qq.com/cgi-bin/'
 
 inhibit_rules:
